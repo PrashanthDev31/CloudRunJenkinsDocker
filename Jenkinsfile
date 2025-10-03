@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/AneilRapole/cloud-run-practice.git'
+                git branch: 'main', url: 'https://github.com/PrashanthDev31/CloudRunJenkinsDocker'
             }
         }
 
