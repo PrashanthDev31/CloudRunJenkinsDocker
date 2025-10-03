@@ -2,9 +2,9 @@ pipeline {
     agent any  // Use the 'any' agent, similar to the working App Engine pipeline
 
     environment {
-        PROJECT_ID = 'rock-position-455809-m2'  // GCP Project ID
+        PROJECT_ID = 'testapp-472401'  // GCP Project ID
         GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account')  // Service account credentials
-        DOCKER_HUB_CREDENTIALS_USR = 'aneilrapole'  // Your Docker Hub username
+        DOCKER_HUB_CREDENTIALS_USR = 'prashanthdev31'  // Your Docker Hub username
         IMAGE_NAME = 'cloudrun'  // Docker image name
         DOCKER_HUB_CREDENTIALS_PSWD = credentials('docker-hub-password')  // Docker Hub password credentials
     }
